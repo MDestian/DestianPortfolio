@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DestianPortfolio</title>
+    <link rel="stylesheet" href="dist/output.css">
+    
+
+</head>
+
+
+<!-- w-full bg-[#0f172a] bg-opacity-50 fixed border-b-2 border-slate-700 text-white -->
+<body>
+    
+    <!-- navbar -->
+    <header class="bg-transparent absolute top-0 left-0 w-full items-center z-10 ">
+        <div class="container max-w-5xl mx-auto">
+            <div class="flex items-center justify-between lg:mx-auto relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-xl text-sky-500 block py-6 animate-pulse ">Destian</a>
+                </div>
+                <div class="flex items-center px-4 ">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="navMenu"
+                        class="hidden absolute py-5 bg-[#0f172a] shadow-lg shadow-slate-700 rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none ">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base text-dark py-2 mx-8 group-hover:text-sky-500 text-white  flex">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-dark py-2 mx-8 group-hover:text-sky-500 text-white  flex">About Me</a>
+                            </li>
+                            <li class="group">
+                                <a href="#skills"
+                                    class="text-base text-dark py-2 mx-8 group-hover:text-sky-500 text-white  flex">Skills</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact"
+                                    class="text-base text-dark py-2 mx-8 group-hover:text-sky-500 text-white  flex">Contact</a>
+                            </li>
+                            <!-- dark mode -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- home -->
+    <section id="home" class=" items-center pt-40 bg-gradient-to-br from-[#0f172a] from-70% to-sky-800">
+        <div class="container max-w-5xl flex align-center mx-auto justify-center">
+            <div class="flex flex-wrap mx-6 ">
+                <div class="w-full self-center ">
+                    <h1 class="font-medium text-white ">Hi Nama Saya </h1>
+                    <h1 class="font-bold text-4xl lg:text-5xl mb-4 text-white">Destian</h1>
+                    <p class="font-semibold text-sm lg:text-md leading-relaxed mb-5 text-slate-500">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Eaque ducimus et libero.</p>
+                    <button class="lg:py-3 lg:px-8 py-2 px-5 font-semibold text-white rounded-full bg-sky-500">Hubungi Sekarang</button>
+                </div>
+            </div>
+            <div class="flex flex-wrap mx-6 ">
+                <div class="w-full self-center">
+                    <img src="narto.png" alt="" class="pb-28">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about -->
+    <section id="about" class="pt-36 pb-32 bg-gradient-to-tr text-white from-[#0f172a] from-70% to-sky-800">
+        <div class="container w-full lg:max-w-5xl mx-auto pt-12">
+            <h1 class="font-medium lg:text-4xl text-2xl flex justify-center items-center pb-5">Tentang Saya</h1>
+            <div class="lg:w-2/3 w-4/5 mx-auto border-2 border-slate-700 rounded-lg ">
+                <h1 class="lg:py-8 lg:px-16 p-4 text-[15px] font-semibold leading-relaxed lg:text-lg text-slate-500">
+                    Perkenalkan nama saya adalah Muhamad Destian Al-farizky Umur saya 17 tahun. Saya bersekolah di SMKN
+                    11 Bandung. Saya memiliki hobi bermain game dan menonton film. Saya memiliki cita-cita menjadi
+                    seorang front-end developer. Saya baru mengenal dasar programming pada tahun 2022 di jurusan RPL.
+
+                </h1>
+                <div class="border-t-2 border-slate-700 w-2/3 mx-auto flex ">
+                    <div class="lg:w-1/2 w-full flex flex-wrap mx-auto ">
+                        <a href="https://instagram.com/mdesz9" target="_blank" class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="instagram.png" alt=""
+                           >
+                        </a>
+                        <a href="https://tiktok.com/destian_01" target="_blank"  class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">                           
+                            <img src="tik-tok.png" alt="">
+                        </a>
+                        <a href="https://github.com/MDestian" target="_blank" class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="github.png" alt="">
+                        </a>
+                        <a href="https://youtube.com/m.destianalfarizky2778" target="_blank"  class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="youtube.png" alt="">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="pt-36 pb-32 bg-slate-700">
+        <div class="container w-full lg:max-w-5xl mx-auto ">
+            <div class="w-4/5 lg:w-3/5 mx-auto">
+                <h1 class="text-white font-semibold text-2xl text-center lg:text-4xl leading-relaxed flex justify-center items-center pb-5">Skill yang pernah saya pelajari</h1>
+                <p class="text-white font-semibold text-center text-sm lg:text-md leading-relaxed flex justify-center items-center pb-5">Saya memahami konsep koonsep dasar bahasa pemrograman dibawah ini walaupun saya belum menguasai sepenuhnya </p>
+                <div class="w-full mx-auto flex flex-wrap pt-8 ">
+                    <a href=""
+                        class="w-1/2 lg:w-1/3 p-4 grayscale hover:bg-opacity-100 hover:grayscale-0 transition duration-500 ease-in-out">
+                        <img src="html.png" alt="">
+                    </a>
+                    <a href=""
+                        class="w-1/2 lg:w-1/3 p-4 grayscale hover:bg-opacity-100 hover:grayscale-0 transition duration-500 ease-in-out">
+                        <img src="css.png" alt="">
+                    </a>
+                    <a href=""
+                        class="w-1/2 lg:w-1/3 p-4 lg:pt-8 pt-4 grayscale hover:bg-opacity-100 hover:grayscale-0 transition duration-500 ease-in-out">
+                        <img src="Tailwind-CSS1-900x0-removebg-preview.png" alt="">
+                    </a>
+                    <a href=""
+                        class="w-1/2 lg:w-1/3 p-4 pt-8 grayscale hover:bg-opacity-100 hover:grayscale-0 transition duration-500 ease-in-out">
+                        <img src="csap.png" alt="">
+                    </a>
+                    <a href=""
+                        class="w-1/2 lg:w-1/3 p-4 pt-8 grayscale hover:bg-opacity-100 hover:grayscale-0 transition duration-500 ease-in-out">
+                        <img src="js.png" alt="">
+                    </a>
+                    <a href=""
+                        class="w-1/2 lg:w-1/3 p-4 pt-8 grayscale hover:bg-opacity-100 hover:grayscale-0 transition duration-500 ease-in-out">
+                        <img src="php.png" alt="">
+                    </a>
+                    <a href=""
+                        class="w-1/2 lg:w-1/3 lg:pt-16 p-4 pt-8 grayscale hover:bg-opacity-100 hover:grayscale-0 transition duration-500 ease-in-out">
+                        <img src="laravel.png" alt="">
+                    </a>
+                    <a href="bootstrap.png"
+                        class="w-1/2 lg:w-1/3 p-4 pt-8 grayscale hover:bg-opacity-100 hover:grayscale-0 transition duration-500 ease-in-out">
+                        <img src="sql.png" alt="">
+                    </a>
+                    <a href="sql.png"
+                        class="w-1/2 lg:w-1/3 p-4 pt-8 grayscale hover:bg-opacity-100 hover:grayscale-0 transition duration-500 ease-in-out">
+                        <img src="bootstrap.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section id="contact" class="pt-36 pb-32 bg-[#0f172a]">
+        <div class="container max-w-5xl mx-auto">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto mb-16 text-center">
+                    <h4 class="mb-4 font-semibold text-lg text-sky-500">Contact</h4>
+                    <h2 class="font-bold text-4xl text-white">Hubungi Sekarang</h2>
+                </div>
+                <form action="">
+                    <div class="w-full ">
+                        <div class="w-full mx-auto px-4 mb-6">
+                            <label for="name" class="font-mono text-lg text-sky-500">Nama</label>
+                            <input type="text"
+                                class="bg-slate-500 rounded-lg focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500 h-12 text-2xl px-4 text-white w-full">
+                        </div>
+
+                    </div>
+                    <div class="w-full ">
+                        <div class="w-full mx-auto px-4 mb-6">
+                            <label for="email" class="font-mono text-lg text-sky-500">Email</label>
+                            <input type="text"
+                                class="bg-slate-500 rounded-lg focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500focus:outline-none focus-ring-1  h-12 text-2xl px-4 text-white w-full">
+                        </div>
+
+                    </div>
+                    <div class="w-full ">
+                        <div class="w-full mx-auto px-4 mb-6">
+                            <label for="email" class="font-mono text-lg text-sky-500">Pesan</label>
+                            <textarea type="text" name="pesan" id="pesan"
+                                class="w-full bg-slate-500 h-32 rounded-lg focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500 text-2xl px-4 text-white"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="w-full px-4">
+                        <button
+                            class="bg-sky-500 w-full rounded-lg py-3 text-base text-white hover:opacity-80 hover:shadow-lg">Hubungi
+                            Sekarang</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="pt-24 pb-16 bg-slate-700 text-white">
+        <div class="container ">
+            <div class="flex mx-auto flex-wrap">
+                <div class="px-8 mb-12 lg:w-1/3 w-full">
+                     <h4 class="font-bold text-3xl mb-3 animate-pulse">Destian</h4>
+                     <h2 class="font-medium mb-2 text-xl">Hubungi</h2>
+                     <p>naitsed96@gmail.com</p>
+                     <p>jl. babakan cianjur</p>
+                     <p>Bandung</p>
+                      
+                </div>
+                <div class="px-8 mb-12 lg:w-1/3 w-full">
+                     <ul>
+                        <li>
+                            <a href="#home" class="inline-block py-2 font-semibold hover:text-sky-500">Home</a>
+                        </li>
+                     </ul>
+                     <ul>
+                        <li>
+                            <a href="#about" class="inline-block py-2 font-semibold hover:text-sky-500">About</a>
+                        </li>
+                     </ul>
+                     <ul>
+                        <li>
+                            <a href="#skills" class="inline-block py-2 font-semibold hover:text-sky-500">Skill</a>
+                        </li>
+                     </ul>
+                     <ul>
+                        <li>
+                            <a href="#contact" class="inline-block py-2 font-semibold hover:text-sky-500">Contact</a>
+                        </li>
+                     </ul>
+                      
+                </div>
+                <div class="px-4 mb-12 lg:w-1/3 w-full">
+                   <div class="w-1/2 flex flex-wrap mx-auto ">
+                        <a href="https://instagram.com/mdesz9" target="_blank" class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="instagram.png" alt=""
+                           >
+                        </a>
+                        <a href="https://tiktok.com/destian_01" target="_blank"  class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">                           
+                            <img src="tik-tok.png" alt="">
+                        </a>
+                        <a href="https://github.com/MDestian" target="_blank" class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="github.png" alt="">
+                        </a>
+                        <a href="https://youtube.com/m.destianalfarizky2778" target="_blank"  class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="youtube.png" alt="">
+                        </a>
+                        
+                    </div>
+                      
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/js/script.js"></script>
+</body>
+
+
+
+</html>
